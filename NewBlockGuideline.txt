@@ -1,0 +1,11 @@
+- Add to BlockType in block.h
+- Subclass  AbstractInteractiveBlock, AbstractInstantRespondingBlock or AbstractDelayedRespondingBlock
+- Implement the virtual methods (see other Blocks for examples)
+
+- Include header in in AbstractBlock.cpp
+- Add in AbstractBlock::getVirtualInstance()
+
+- Add ComponentInfo in ComponentInfoValues
+- Add ComponentInfoValue in ComponentInfoValue::GetComponentInfo()
+
+- Insert it into the BlockCatalog via BlockCatalog::initPages()

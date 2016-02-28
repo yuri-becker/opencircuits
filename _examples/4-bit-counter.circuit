@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<circuit gridSpacing="40" showGrid="0" moveComponentsOnGrid="1">
+    <block blockType="9" location="48,34" color="#000000" inputSocketIds="" outputSocketIds="" additionalInputSocketIds="" parameters="4-bit synchronous counter" positionLocked="0"/>
+    <block blockType="1" location="63,90" color="#000000" inputSocketIds="" outputSocketIds="Socket_28," additionalInputSocketIds="" parameters="1" positionLocked="0"/>
+    <block blockType="2" location="578,99" color="#000000" inputSocketIds="Socket_1,Socket_2," outputSocketIds="Socket_3," additionalInputSocketIds="" parameters="" positionLocked="0"/>
+    <block blockType="2" location="898,99" color="#000000" inputSocketIds="Socket_4,Socket_5," outputSocketIds="Socket_6," additionalInputSocketIds="" parameters="" positionLocked="0"/>
+    <block blockType="21" location="971,135" color="#000000" inputSocketIds="Socket_7,Socket_8,Socket_9," outputSocketIds="Socket_10,Socket_11," additionalInputSocketIds="" parameters="" positionLocked="0"/>
+    <block blockType="0" location="1105,630" color="#000000" inputSocketIds="Socket_12," outputSocketIds="" additionalInputSocketIds="" parameters="#ff0000" positionLocked="0"/>
+    <block blockType="21" location="731,135" color="#000000" inputSocketIds="Socket_13,Socket_14,Socket_15," outputSocketIds="Socket_16,Socket_17," additionalInputSocketIds="" parameters="" positionLocked="0"/>
+    <block blockType="0" location="1105,670" color="#000000" inputSocketIds="Socket_18," outputSocketIds="" additionalInputSocketIds="" parameters="#ff0000" positionLocked="0"/>
+    <block blockType="21" location="491,135" color="#000000" inputSocketIds="Socket_19,Socket_20,Socket_21," outputSocketIds="Socket_22,Socket_23," additionalInputSocketIds="" parameters="" positionLocked="0"/>
+    <block blockType="0" location="1105,710" color="#000000" inputSocketIds="Socket_24," outputSocketIds="" additionalInputSocketIds="" parameters="#ff0000" positionLocked="0"/>
+    <block blockType="21" location="211,135" color="#000000" inputSocketIds="Socket_29,Socket_30,Socket_31," outputSocketIds="Socket_32,Socket_33," additionalInputSocketIds="" parameters="" positionLocked="0"/>
+    <block blockType="0" location="1105,750" color="#000000" inputSocketIds="Socket_25," outputSocketIds="" additionalInputSocketIds="" parameters="#ff0000" positionLocked="0"/>
+    <block blockType="11" location="500,390" color="#008000" inputSocketIds="" outputSocketIds="Socket_26," additionalInputSocketIds="" parameters="30;550" positionLocked="0"/>
+    <block blockType="0" location="585,430" color="#000000" inputSocketIds="Socket_27," outputSocketIds="" additionalInputSocketIds="" parameters="#ff0000" positionLocked="0"/>
+    <block blockType="9" location="366,514" color="#000000" inputSocketIds="" outputSocketIds="" additionalInputSocketIds="" parameters="Stop and restart the Simulation to reset the counter" positionLocked="0"/>
+    <socketConnection socketAId="Socket_30" socketBId="Socket_26" color="#008000"/>
+    <socketConnection socketAId="Socket_20" socketBId="Socket_26" color="#008000"/>
+    <socketConnection socketAId="Socket_14" socketBId="Socket_26" color="#008000"/>
+    <socketConnection socketAId="Socket_8" socketBId="Socket_26" color="#008000"/>
+    <socketConnection socketAId="Socket_29" socketBId="Socket_28" color="#000000"/>
+    <socketConnection socketAId="Socket_19" socketBId="Socket_32" color="#000000"/>
+    <socketConnection socketAId="Socket_21" socketBId="Socket_32" color="#000000"/>
+    <socketConnection socketAId="Socket_1" socketBId="Socket_32" color="#000000"/>
+    <socketConnection socketAId="Socket_2" socketBId="Socket_22" color="#000000"/>
+    <socketConnection socketAId="Socket_13" socketBId="Socket_3" color="#000000"/>
+    <socketConnection socketAId="Socket_15" socketBId="Socket_3" color="#000000"/>
+    <socketConnection socketAId="Socket_7" socketBId="Socket_6" color="#000000"/>
+    <socketConnection socketAId="Socket_9" socketBId="Socket_6" color="#000000"/>
+    <socketConnection socketAId="Socket_5" socketBId="Socket_16" color="#000000"/>
+    <socketConnection socketAId="Socket_4" socketBId="Socket_3" color="#000000"/>
+    <socketConnection socketAId="Socket_12" socketBId="Socket_10" color="#0000ff"/>
+    <socketConnection socketAId="Socket_18" socketBId="Socket_16" color="#0000ff"/>
+    <socketConnection socketAId="Socket_24" socketBId="Socket_22" color="#0000ff"/>
+    <socketConnection socketAId="Socket_25" socketBId="Socket_32" color="#0000ff"/>
+    <socketConnection socketAId="Socket_27" socketBId="Socket_26" color="#000000"/>
+</circuit>

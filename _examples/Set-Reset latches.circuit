@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<circuit gridSpacing="40" showGrid="1" moveComponentsOnGrid="1">
+    <block blockType="9" location="26,34" color="#000000" inputSocketIds="" outputSocketIds="" additionalInputSocketIds="" parameters="SR NOR latch" positionLocked="1"/>
+    <block blockType="9" location="8,274" color="#000000" inputSocketIds="" outputSocketIds="" additionalInputSocketIds="" parameters="!(SR) NAND latch" positionLocked="0"/>
+    <block blockType="0" location="385,190" color="#000000" inputSocketIds="Socket_1," outputSocketIds="" additionalInputSocketIds="" parameters="#ff0000" positionLocked="1"/>
+    <block blockType="0" location="385,70" color="#000000" inputSocketIds="Socket_2," outputSocketIds="" additionalInputSocketIds="" parameters="#ff0000" positionLocked="1"/>
+    <block blockType="6" location="218,179" color="#000000" inputSocketIds="Socket_3,Socket_4," outputSocketIds="Socket_5," additionalInputSocketIds="" parameters="" positionLocked="1"/>
+    <block blockType="12" location="140,64" color="#000000" inputSocketIds="Socket_6,Socket_7," outputSocketIds="Socket_8," additionalInputSocketIds="" parameters="" positionLocked="1"/>
+    <block blockType="6" location="218,59" color="#000000" inputSocketIds="Socket_9,Socket_10," outputSocketIds="Socket_11," additionalInputSocketIds="" parameters="" positionLocked="1"/>
+    <block blockType="1" location="60,130" color="#000000" inputSocketIds="" outputSocketIds="Socket_12," additionalInputSocketIds="" parameters="1" positionLocked="1"/>
+    <block blockType="12" location="140,189" color="#000000" inputSocketIds="Socket_13,Socket_14," outputSocketIds="Socket_15," additionalInputSocketIds="" parameters="" positionLocked="1"/>
+    <block blockType="0" location="385,310" color="#000000" inputSocketIds="Socket_16," outputSocketIds="" additionalInputSocketIds="" parameters="#ff0000" positionLocked="1"/>
+    <block blockType="0" location="385,430" color="#000000" inputSocketIds="Socket_17," outputSocketIds="" additionalInputSocketIds="" parameters="#ff0000" positionLocked="1"/>
+    <block blockType="5" location="218,419" color="#000000" inputSocketIds="Socket_18,Socket_19," outputSocketIds="Socket_20," additionalInputSocketIds="" parameters="" positionLocked="1"/>
+    <block blockType="5" location="218,299" color="#000000" inputSocketIds="Socket_21,Socket_22," outputSocketIds="Socket_23," additionalInputSocketIds="" parameters="" positionLocked="1"/>
+    <block blockType="12" location="140,424" color="#000000" inputSocketIds="Socket_24,Socket_25," outputSocketIds="Socket_26," additionalInputSocketIds="" parameters="" positionLocked="1"/>
+    <block blockType="1" location="60,370" color="#000000" inputSocketIds="" outputSocketIds="Socket_27," additionalInputSocketIds="" parameters="1" positionLocked="1"/>
+    <block blockType="12" location="140,304" color="#000000" inputSocketIds="Socket_28,Socket_29," outputSocketIds="Socket_30," additionalInputSocketIds="" parameters="" positionLocked="1"/>
+    <block blockType="12" location="140,704" color="#000000" inputSocketIds="Socket_45,Socket_46," outputSocketIds="Socket_47," additionalInputSocketIds="" parameters="" positionLocked="0"/>
+    <block blockType="2" location="218,699" color="#000000" inputSocketIds="Socket_39,Socket_40," outputSocketIds="Socket_41," additionalInputSocketIds="" parameters="" positionLocked="0"/>
+    <block blockType="2" location="218,539" color="#000000" inputSocketIds="Socket_42,Socket_43," outputSocketIds="Socket_44," additionalInputSocketIds="" parameters="" positionLocked="0"/>
+    <block blockType="0" location="385,590" color="#000000" inputSocketIds="Socket_54," outputSocketIds="" additionalInputSocketIds="" parameters="#ff0000" positionLocked="0"/>
+    <block blockType="0" location="385,670" color="#000000" inputSocketIds="Socket_38," outputSocketIds="" additionalInputSocketIds="" parameters="#ff0000" positionLocked="0"/>
+    <block blockType="12" location="140,544" color="#000000" inputSocketIds="Socket_48,Socket_49," outputSocketIds="Socket_50," additionalInputSocketIds="" parameters="" positionLocked="0"/>
+    <block blockType="1" location="60,630" color="#000000" inputSocketIds="" outputSocketIds="Socket_34," additionalInputSocketIds="" parameters="1" positionLocked="0"/>
+    <block blockType="13" location="180,629" color="#000000" inputSocketIds="Socket_35,Socket_36," outputSocketIds="Socket_37," additionalInputSocketIds="" parameters="1" positionLocked="0"/>
+    <block blockType="6" location="298,659" color="#000000" inputSocketIds="Socket_51,Socket_52," outputSocketIds="Socket_53," additionalInputSocketIds="" parameters="" positionLocked="0"/>
+    <block blockType="6" location="298,579" color="#000000" inputSocketIds="Socket_31,Socket_32," outputSocketIds="Socket_33," additionalInputSocketIds="" parameters="" positionLocked="0"/>
+    <block blockType="9" location="17,514" color="#000000" inputSocketIds="" outputSocketIds="" additionalInputSocketIds="" parameters="Gated SR Latch" positionLocked="0"/>
+    <socketConnection socketAId="Socket_4" socketBId="Socket_15" color="#000000"/>
+    <socketConnection socketAId="Socket_1" socketBId="Socket_5" color="#000000"/>
+    <socketConnection socketAId="Socket_10" socketBId="Socket_5" color="#ff0000"/>
+    <socketConnection socketAId="Socket_2" socketBId="Socket_11" color="#000000"/>
+    <socketConnection socketAId="Socket_3" socketBId="Socket_11" color="#0000ff"/>
+    <socketConnection socketAId="Socket_7" socketBId="Socket_12" color="#000000"/>
+    <socketConnection socketAId="Socket_9" socketBId="Socket_8" color="#000000"/>
+    <socketConnection socketAId="Socket_14" socketBId="Socket_12" color="#000000"/>
+    <socketConnection socketAId="Socket_21" socketBId="Socket_30" color="#000000"/>
+    <socketConnection socketAId="Socket_19" socketBId="Socket_26" color="#000000"/>
+    <socketConnection socketAId="Socket_16" socketBId="Socket_23" color="#000000"/>
+    <socketConnection socketAId="Socket_17" socketBId="Socket_20" color="#000000"/>
+    <socketConnection socketAId="Socket_18" socketBId="Socket_23" color="#0000ff"/>
+    <socketConnection socketAId="Socket_22" socketBId="Socket_20" color="#ff0000"/>
+    <socketConnection socketAId="Socket_24" socketBId="Socket_27" color="#000000"/>
+    <socketConnection socketAId="Socket_28" socketBId="Socket_27" color="#000000"/>
+    <socketConnection socketAId="Socket_43" socketBId="Socket_37" color="#000000"/>
+    <socketConnection socketAId="Socket_39" socketBId="Socket_37" color="#000000"/>
+    <socketConnection socketAId="Socket_52" socketBId="Socket_41" color="#000000"/>
+    <socketConnection socketAId="Socket_31" socketBId="Socket_44" color="#000000"/>
+    <socketConnection socketAId="Socket_46" socketBId="Socket_34" color="#000000"/>
+    <socketConnection socketAId="Socket_40" socketBId="Socket_47" color="#000000"/>
+    <socketConnection socketAId="Socket_51" socketBId="Socket_33" color="#000000"/>
+    <socketConnection socketAId="Socket_42" socketBId="Socket_50" color="#000000"/>
+    <socketConnection socketAId="Socket_54" socketBId="Socket_33" color="#000000"/>
+    <socketConnection socketAId="Socket_38" socketBId="Socket_53" color="#000000"/>
+    <socketConnection socketAId="Socket_49" socketBId="Socket_34" color="#000000"/>
+    <socketConnection socketAId="Socket_36" socketBId="Socket_34" color="#000000"/>
+    <socketConnection socketAId="Socket_32" socketBId="Socket_53" color="#000000"/>
+</circuit>
